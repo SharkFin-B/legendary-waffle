@@ -1,0 +1,1 @@
+{"version":3,"file":"appraisal-data.d.ts","sourceRoot":"","sources":["../../src/appraisal-form/appraisal-data.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAQ,MAAM,KAAK,CAAC;AAGvC,qBACa,aAAc,SAAQ,UAAU;IAChC,MAAM;CAQlB;AAED,OAAO,CAAC,MAAM,CAAC;IACX,UAAU,qBAAqB;QAC3B,gBAAgB,EAAE,aAAa,CAAC;KACnC;CACJ"}
