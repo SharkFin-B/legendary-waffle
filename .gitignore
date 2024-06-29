@@ -1,11 +1,19 @@
 /node_modules/
+/docs/node_modules/
 /lib/
 /test/
+/.idea
+/dist
+/docs
 custom-elements.json
+
 # top level source
-my-element.js
-my-element.js.map
-my-element.d.ts
-my-element.d.ts.map
+dev/**/*.js
+dev/**/*.js.map
+dev/**/*.d.ts
+dev/**/*.d.ts.map
+
 # only generated for size check
 my-element.bundled.js
+*.zip
+.DS_Store

@@ -1,0 +1,1 @@
+{"version":3,"file":"appraisal-additions.d.ts","sourceRoot":"","sources":["../../src/appraisal-form/appraisal-additions.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAQ,MAAM,KAAK,CAAC;AAGvC,qBACa,kBAAmB,SAAQ,UAAU;IACrC,MAAM;CAQlB;AAED,OAAO,CAAC,MAAM,CAAC;IACX,UAAU,qBAAqB;QAC3B,qBAAqB,EAAE,kBAAkB,CAAC;KAC7C;CACJ"}

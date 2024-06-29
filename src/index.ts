@@ -17,7 +17,7 @@ export class Index extends LitElement {
         path: '',
         children: [
           {
-            path: '/',
+            path: '/form',
             component: 'appraisal-form',
             action: async () => {
               await import('./appraisal-form/appraisal-form');

@@ -1,0 +1,1 @@
+{"version":3,"file":"appraisal-insights.d.ts","sourceRoot":"","sources":["../../src/appraisal-form/appraisal-insights.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAQ,MAAM,KAAK,CAAC;AAGvC,qBACa,iBAAkB,SAAQ,UAAU;IACpC,MAAM;CASlB;AAED,OAAO,CAAC,MAAM,CAAC;IACX,UAAU,qBAAqB;QAC3B,oBAAoB,EAAE,iBAAiB,CAAC;KAC3C;CACJ"}

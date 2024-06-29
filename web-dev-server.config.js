@@ -13,6 +13,8 @@ if (!['dev', 'prod'].includes(mode)) {
 
 export default {
   nodeResolve: {exportConditions: mode === 'dev' ? ['development'] : []},
+  rootDir: 'dev',
+  exclude: ['./test/**/*.test.js'],
   preserveSymlinks: true,
   plugins: [
     legacyPlugin({
@@ -22,4 +24,5 @@ export default {
       },
     }),
   ],
+  appIndex: 'dev/index.html'
 };
