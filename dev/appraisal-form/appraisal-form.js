@@ -6,13 +6,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 import { LitElement, css, html } from "lit";
 import { customElement } from "lit/decorators.js";
-import './appraisal-identification';
-import './appraisal-data';
-import './appraisal-insights';
-import './appraisal-additions';
+import './identification/appraisal-identification';
+import './data/appraisal-data';
+import './insights/appraisal-insights';
+import './additions/appraisal-additions';
 let AppraisalForm = class AppraisalForm extends LitElement {
     render() {
         return html `
+            <h1>Appraisal Form</h1>
             <section class="appraisal-form">
                 <appraisal-identification></appraisal-identification>
                 <appraisal-data></appraisal-data>
@@ -22,7 +23,16 @@ let AppraisalForm = class AppraisalForm extends LitElement {
         `;
     }
 };
-AppraisalForm.styles = css ``;
+AppraisalForm.styles = css `
+        .appraisal-form {
+            display: grid;
+            gap: 1.5rem;
+        }
+        h1 {
+            font-family: Barlow;
+            color: #6750a4;
+        }
+    `;
 AppraisalForm = __decorate([
     customElement('appraisal-form')
 ], AppraisalForm);

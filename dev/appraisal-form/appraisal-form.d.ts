@@ -1,8 +1,8 @@
 import { LitElement } from "lit";
-import './appraisal-identification';
-import './appraisal-data';
-import './appraisal-insights';
-import './appraisal-additions';
+import './identification/appraisal-identification';
+import './data/appraisal-data';
+import './insights/appraisal-insights';
+import './additions/appraisal-additions';
 export declare class AppraisalForm extends LitElement {
     static styles: import("lit").CSSResult;
     render(): import("lit-html").TemplateResult<1>;
